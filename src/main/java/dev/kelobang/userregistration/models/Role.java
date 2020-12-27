@@ -9,6 +9,7 @@ import javax.persistence.*;
 @AllArgsConstructor
 @Getter
 @Setter
+@Entity
 @Table(name = "roles")
 public class Role {
 
